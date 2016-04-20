@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>A quote a day</title>
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align="center">
+  <h1 style="color:#1a1a1a" id="quote"></h1>
+</div>
+
+<script>
+var quoteArray=[
+  "There are way more people alive today, than ever died",
+  "Never take anything for granted.",
+  "You can't wake a person who is pretending to be asleep",
+  "It doesn't have to make sense to make sense.",
+  "Whatever you are, be a good one",
+  "A lie is just a great story that someone ruined with the truth",
+  "Suit up!",
+  "Believe it or not, I was not always as awesome as I am today",
+  "He's gotten really respectful with his fake listening.",
+  "When you believe in people, people come through."
+               ];
+
+          var randomNumber=Math.floor((Math.random() * 10) + 1);
+          document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+
+</script>
+
+</body>
+</html>
